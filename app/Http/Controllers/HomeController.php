@@ -17,24 +17,17 @@ class HomeController extends Controller
         ]);
 
     }
-    public function loginpage()
-    {
 
-        return view("login.loginpage",[
-            'title' => 'Home',
-            'brand' => 'Warrmindo Aroma',
-        ]);
+    
+    // public function login()
+    // {
 
-    }
-    public function login()
-    {
+    //     return view("login.login",[
+    //         'title' => 'Home',
+    //         'brand' => 'Warrmindo Aroma',
+    //     ]);
 
-        return view("login.login",[
-            'title' => 'Home',
-            'brand' => 'Warrmindo Aroma',
-        ]);
-
-    }
+    // }
 
 
     // public function invoice(Request $request)
