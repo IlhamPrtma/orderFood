@@ -34,7 +34,7 @@ Route::post('/login', [UserController::class, 'authenticate'])->name('login.admi
 Route::get('logout', [UserController::class, 'logout'])->name('admin.logout');
 
 Route::middleware('auth')->group(function () {
-    Route::get('/home', [AdminController::class, 'home'])->name('home.dashboard');
+    // Route::get('/home', [AdminController::class, 'home'])->name('home.dashboard');
     Route::get('/menu', [AdminController::class, 'menu'])->name('menu.dashboard');
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
 });

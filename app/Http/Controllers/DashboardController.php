@@ -29,6 +29,9 @@ class DashboardController extends Controller
     {
         //
     }
-
+    public function order()
+    {
+        return view('admin.pages.order.order');
+    }
  
 }

@@ -5261,7 +5261,7 @@ fieldset:disabled .btn {
     --bs-modal-width: 500px;
     --bs-modal-padding: 1rem;
     --bs-modal-margin: 0.5rem;
-    --bs-modal-color: ;
+    --bs-modal-color: #000;
     --bs-modal-bg: var(--bs-body-bg);
     --bs-modal-border-color: var(--bs-border-color-translucent);
     --bs-modal-border-width: var(--bs-border-width);
@@ -5277,7 +5277,7 @@ fieldset:disabled .btn {
     --bs-modal-header-border-width: var(--bs-border-width);
     --bs-modal-title-line-height: 1.5;
     --bs-modal-footer-gap: 0.5rem;
-    --bs-modal-footer-bg: ;
+    --bs-modal-footer-bg:#fff;
     --bs-modal-footer-border-color: var(--bs-border-color);
     --bs-modal-footer-border-width: var(--bs-border-width);
     position: fixed;
@@ -5346,7 +5346,7 @@ fieldset:disabled .btn {
     outline: 0;
 }
 .modal-backdrop {
-    --bs-backdrop-zindex: 1050;
+    --bs-backdrop-zindex: 1055;
     --bs-backdrop-bg: #000;
     --bs-backdrop-opacity: 0.5;
     position: fixed;

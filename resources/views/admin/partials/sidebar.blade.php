@@ -1,4 +1,4 @@
-</div><!--//app-header-inner-->
+
         <div id="app-sidepanel" class="app-sidepanel sidepanel-hidden"> 
 	        <div id="sidepanel-drop" class="sidepanel-drop"></div>
 	        <div class="sidepanel-inner d-flex flex-column">
@@ -135,7 +135,7 @@
 
             <!-- Menambahkan item Logout -->
             <li class="nav-item">
-                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modalLogoutConfirm">
+			<a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modalLogoutConfirm">
                     <span class="nav-icon">
                         <!-- Ikon logout Anda di sini -->
                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-box-arrow-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -152,7 +152,7 @@
 </div>
 
 <!-- Modal Konfirmasi Logout -->
-<div class="modal fade" id="modalLogoutConfirm" tabindex="-1" aria-labelledby="modalLogoutConfirmLabel" aria-hidden="true">
+<div class="modal-content " id="modalLogoutConfirm" tabindex="-1" aria-labelledby="modalLogoutConfirmLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
